@@ -4,5 +4,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - 3000:3000
-#    depends_on:
-#      - rabbit
+    restart: on-failure
+    depends_on:
+      - rabbit
