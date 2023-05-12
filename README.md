@@ -32,6 +32,19 @@ I'm open to suggestions and feedback, please contact me at [my email](arturo.luc
 
 ## Setup ✅
 
+*First*
+
+Add the .env file to the root directory in the project (I'll send you a copy of mine)
+
+```dotenv
+REPOSITORY_SERVICE_URL=
+RABBIT_URI=
+RABBIT_EXCHANGE=
+RABBIT_QUEUE=
+```
+
+*Second*
+
 I'm using makefile to facilitate the start so you can run any of this commands: 
 
 ```bash
