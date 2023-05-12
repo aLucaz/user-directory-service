@@ -52,6 +52,8 @@ I'm using makefile to facilitate the start so you can run any of this commands:
 $ make up-all
 ```
 
+**Don't be afraid if it shows red messages, it is attempting to connect to the rabbitmq server**
+
 ```bash
 # to run only the nest project
 $ make up-app
